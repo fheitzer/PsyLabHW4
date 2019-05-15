@@ -1,7 +1,8 @@
 // In this file you can specify the trial data for your experiment
 
 
-const key_press_trials = [
+const trial_info = {
+    keyPress: [
     {
         question: "Same or different?",
         picutre: 'mental_rotation_images/5_150_same.jpg'
@@ -58,4 +59,5 @@ const key_press_trials = [
         numberofpic: '3',
         rotation: '50'
     }
-];
+]
+};
