@@ -9,7 +9,7 @@ const key_press_trials = [
         key2: 'd',
         s: 'Same',
         d: 'Different',
-        expected: 'same',
+        expected: 'Same',
         numberofpic: '5',
         rotation: '150'
     },
