@@ -108,7 +108,7 @@ const keyPress1 = babeViews.keyPress({
     // name and trial_type should be identical to the variable name
     name: 'keyPress1',
     trial_type: 'keyPress1',
-    data: trial_info.keyPress
+    data: _.shuffle(trial_info.keyPress)
 });
 
 // There are many more templates available:
