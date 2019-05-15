@@ -23,7 +23,7 @@ const intro = babeViews.intro({
     trials: 1,
     name: 'intro',
     // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-    text:   `This is a sample introduction view.
+    text:   `This is a key-press task.
             <br />
             <br />
             The introduction view welcomes the participant and gives general information
@@ -102,13 +102,13 @@ const thanks = babeViews.thanks({
 
 
 // Here, we initialize a forcedChoice view
-const forced_choice_2A = babeViews.forcedChoice({
+const keyPress1 = babeViews.keyPress({
     // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
-    trials: trial_info.forced_choice.length,
+    trials: trial_info.keyPress.length,
     // name and trial_type should be identical to the variable name
-    name: 'forced_choice_2A',
-    trial_type: 'forced_choice_2A',
-    data: trial_info.forced_choice
+    name: 'keyPress1',
+    trial_type: 'keyPress1',
+    data: trial_info.keyPress
 });
 
 // There are many more templates available:
