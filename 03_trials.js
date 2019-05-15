@@ -33,8 +33,8 @@ const key_press_trials = [
         f: 'Same',
         j: 'Different',
         expected: 'Different',
-        numberofpic: 10,
-        rotation: 150
+        numberofpic: '10',
+        rotation: '150'
     },
     {
         question: "Same or different?",
