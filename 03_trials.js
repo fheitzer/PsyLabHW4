@@ -1,19 +1,61 @@
 // In this file you can specify the trial data for your experiment
 
 
-const trial_info = {
-    forced_choice: [
-        {
-            question: "What's on the bread?",
-            picture: "images/question_mark_02.png",
-            option1: 'jam',
-            option2: 'ham'
-        },
-        {
-            question: "What's the weather like?",
-            picture: "images/weather.jpg",
-            option1: "shiny",
-            option2: "rainbow"
-        }
-    ]
-};
+const key_press_trials = [
+    {
+        question: "Same or different?",
+        picutre: 'mental_rotation_images/5_150_same.jpg'
+        key1: 's',
+        key2: 'd',
+        f: 'Same',
+        j: 'Different',
+        expected: 'same',
+        numberofpic: 5,
+        rotation: 150
+    },
+    {
+        question: "Same or different?",
+        picutre: 'mental_rotation_images/6_50_same.jpg'
+        key1: 's',
+        key2: 'd',
+        f: 'Same',
+        j: 'Different',
+        expected: 'Same',
+        numberofpic: 6,
+        rotation: 50
+        
+    },
+    {
+        question: "Same or different?",
+        picutre: 'mental_rotation_images/10_150_different.jpg'
+        key1: 's',
+        key2: 'd',
+        f: 'Same',
+        j: 'Different',
+        expected: 'Different',
+        numberofpic: 10,
+        rotation: 150
+    },
+    {
+        question: "Same or different?",
+        picutre: 'mental_rotation_images/1_50_same.jpg'
+        key1: 's',
+        key2: 'd',
+        f: 'Same',
+        j: 'Different',
+        expected: 'Same',
+        numberofpic: 1,
+        rotation: 50
+    },
+    {
+        question: "Same or different?",
+        picutre: 'mental_rotation_images/3_50_different.jpg'
+        key1: 's',
+        key2: 'd',
+        f: 'Same',
+        j: 'Different',
+        expected: 'Different',
+        numberofpic: 3,
+        rotation: 50
+    }
+];
