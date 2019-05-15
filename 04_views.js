@@ -23,7 +23,7 @@ const intro = babeViews.intro({
     trials: 1,
     name: 'intro',
     // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-    text:   `This is a key-press task.
+    text:   `This is a sample introduction view.
             <br />
             <br />
             The introduction view welcomes the participant and gives general information
@@ -42,7 +42,9 @@ const instructions = babeViews.instructions({
     text:  `This is a sample instructions view.
             <br />
             <br />
-            Tell your participants what they are to do here.`,
+            Press key 's' if the objects are identical,
+            <br />
+            press key 'd' if the objects differ -> not identical.`,
     buttonText: 'go to trials'
 });
 
@@ -113,4 +115,3 @@ const keyPress1 = babeViews.keyPress({
 
 // There are many more templates available:
 // forcedChoice, sliderRating, dropdownChoice, testboxInput, ratingScale, imageSelection, sentenceChoice, keyPress, selfPacedReading and selfPacedReading_ratingScale
-
