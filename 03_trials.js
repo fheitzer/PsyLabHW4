@@ -10,8 +10,8 @@ const key_press_trials = [
         f: 'Same',
         j: 'Different',
         expected: 'same',
-        numberofpic: 5,
-        rotation: 150
+        numberofpic: '5',
+        rotation: '150'
     },
     {
         question: "Same or different?",
@@ -21,8 +21,8 @@ const key_press_trials = [
         f: 'Same',
         j: 'Different',
         expected: 'Same',
-        numberofpic: 6,
-        rotation: 50
+        numberofpic: '6',
+        rotation: '50'
         
     },
     {
@@ -44,8 +44,8 @@ const key_press_trials = [
         f: 'Same',
         j: 'Different',
         expected: 'Same',
-        numberofpic: 1,
-        rotation: 50
+        numberofpic: '1',
+        rotation: '50'
     },
     {
         question: "Same or different?",
@@ -55,7 +55,7 @@ const key_press_trials = [
         f: 'Same',
         j: 'Different',
         expected: 'Different',
-        numberofpic: 3,
-        rotation: 50
+        numberofpic: '3',
+        rotation: '50'
     }
 ];
