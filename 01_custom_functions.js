@@ -28,9 +28,26 @@ const generateID = function(len) {
 };
 // Declare your helper functions here
 
+const check_response = function(data, next) {
+    data.response_checked = false;
+    $("body").on("keydown", function(e) {
+        if (data.response_checked == false) {
+            const keyPressed = String.fromCharCode(
+                e.which
+            ).toLowerCase();
+            if (keyPressed == data.key1 || keyPressed == data.key2) {
+                if (data[keyPressed] === data.expected) {
+                    alert('Your answer is correct! Yey!');
+                } else {
+                    alert('Sorry, this answer is incorrect :( The correct answer was ' + data.expected);
+                }
+                data.response_checked = true;
+                next();
+            }
+        }})
+};
 
-
-/* Hooks  
+/* Hooks
 *
 *
 */
